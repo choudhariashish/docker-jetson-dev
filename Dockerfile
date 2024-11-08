@@ -26,6 +26,7 @@ RUN apt-get install -y socat
 RUN apt-get install -y libsdl1.2-dev
 RUN apt-get install -y xterm
 RUN apt-get install -y zstd
+RUN apt-get install -y lz4
 
 RUN locale-gen en_US en_US.UTF-8
 RUN dpkg-reconfigure --frontend=noninteractive locales && update-locale LANG=en_US.UTF-8
