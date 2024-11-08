@@ -1,7 +1,7 @@
 #!/bin/bash
 
-rm -rf share/
-mkdir -p share
+rm -rf share/poky
+rm -rf share/meta-tegra
 cd share/
 
 export BRANCH="kirkstone"
